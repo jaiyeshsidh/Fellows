@@ -1,8 +1,6 @@
-THEME: Pixels - Free Bootstrap Theme
-AUTHOR: uiCookies.com
-AUTHOR URI: https://uiCookies.com/
-Twitter: https://twitter.com/uiCookies
-Facebook: https://facebook.com/probootstrap
+AUTHOR: Siddhant S Goral
+Twitter: https://twitter.com/jaiyeshsidh
+Facebook: https://facebook.com/jaiyeshsidh
 
 
 CREDITS:
