@@ -1,0 +1,102 @@
+/* Your custom css code goes here */
+/* .mentor img{
+    width: 80%;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    padding-top: 80px;
+} */
+.mentor{
+    display: block;
+    margin: auto
+}
+.mentor img{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    width: 24.6%;
+    display: inline-block;
+    /* margin: 5px; */
+}
+.mentor img:hover{
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    transition: 0.4s all;
+}
+.mentor h2{
+    text-align: center;
+}
+/* .mentor p{
+    margin: 0;
+    text-align: center;
+} */
+.fixed-top{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.for-you{
+    padding: 3rem 0;
+}
+.text-custom h6{
+    color: rgba(255,255,255,.2);
+    text-transform: uppercase;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.54);
+    /* line-height: 1.5; */
+    /* margin-bottom: 10px!important; */
+}
+.text-custom h3{
+    line-height: 30px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 0;
+}
+.text-custom p{
+
+}
+
+.menu-bg{
+    display: none;
+}
+@media(max-width:991px){
+    .mentor img{
+        width: 24.4%;
+    }
+}
+@media(max-width:768px){
+    .gototop a{
+        display: none;
+    }
+    .menu-bg{
+        display: block;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 124px;
+        height: 74px;
+        background: #fff;
+        z-index: 13;
+        box-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+    }
+    .probootstrap-main-nav li a{
+        color: #fff;
+    }
+    .probootstrap-mobile-menu-active .probootstrap-main-nav li.active a{
+        color: #fff;
+    }
+    .mentor img{
+        width: 49.5%;
+    }
+}
+@media(max-width:552px){
+    .mentor img{
+        width: 49.4%;
+    }
+}
+@media(max-width:445px){
+    .mentor img{
+        width: 49%;
+    }
+}
