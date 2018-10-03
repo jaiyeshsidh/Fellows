@@ -4,3 +4,7 @@ jQuery(document).ready(function() {
 	// Your custom js code goes here.
 
 });
+$("#btnStats").click(function(){
+	$(".showreel").show();
+	$("#btnStats").hide()
+});

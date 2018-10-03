@@ -11,11 +11,11 @@
     margin: auto
 }
 .mentor img{
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+    /* -webkit-filter: grayscale(100%); */ /* Safari 6.0 - 9.0 */
+    /* filter: grayscale(100%); */
     width: 24.6%;
     display: inline-block;
-    /* margin: 5px; */
+    margin: 2px 0px;
 }
 .mentor img:hover{
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
@@ -33,6 +33,7 @@
     position: fixed;
     top: 0px;
     left: 0px;
+    box-shadow: 0px -3px 20px rgba(0,0,0,0.1);
 }
 .for-you{
     padding: 3rem 0;
@@ -44,6 +45,7 @@
     color: rgba(0, 0, 0, 0.54);
     /* line-height: 1.5; */
     /* margin-bottom: 10px!important; */
+    margin-top: 64px !important;
 }
 .text-custom h3{
     line-height: 30px;
@@ -56,7 +58,54 @@
 .text-custom p{
 
 }
+.showreel{
+    display: none;
+}
+.fellow-list{
+    list-style: none;
+}
+.fellow-folder{
+    width:70%;
+    display: inline-block;
+    padding-left: 10px;
+}
+.fellow-img{
+    width: 20%;
+    border-radius: 50%;
+    margin: 6px;
+    vertical-align: top;
+}
+.fellow-name{
+    font-size: 19px !important;
+    text-transform: inherit !important;
+    margin-bottom: 0 !important;
+    font-weight: 500 !important;
+    letter-spacing: 0;
+}
+.fellow-college{
+    font-size: 12px;
+    color: #888888;
+    margin: 0;
+    letter-spacing: 0.5px;
+    margin-top: -2px;
+}
+#btnStats{
+    outline: none;
+    margin: auto;
+    display: block;
+    padding: 10px 30px;
+    font-size: 15px;
+    background: 0;
+    border-radius: 30px;
+    border: 2px solid #9e44f8;
+    color: #9e44f8;
+    transition: 0.3s all;
+}
+#btnStats:hover{
+    background-color: #9e44f8;
+    color:#fff;
 
+}
 .menu-bg{
     display: none;
 }
@@ -64,8 +113,11 @@
     .mentor img{
         width: 24.4%;
     }
+    .fellow-list{
+        padding: 0 !important;
+    }
 }
-@media(max-width:768px){
+@media(max-width: 767px){
     .gototop a{
         display: none;
     }
